@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guido Huisman's Resume</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Font (In this example, I'm using 'Roboto', but you can change this) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Applying the Google Font to the body */
+        body {
+            font-family: 'Roboto', sans-serif;
+            padding: 20px;
+        }
+
+        /* Centering the main content for a better presentation */
+        .main-content {
+            text-align: center;
+            max-width: 800px;
+            margin: 40px auto;
+        }
+
+        /* Styling the image */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;  /* Adds rounded corners */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+        }
+    </style>
 </head>
 <body>
-    <img src="Schermafbeelding%202023-08-28%20224948.png" alt="Guido Huisman" />
+
+<div class="main-content">
+    <img src="Schermafbeelding%202023-08-28%20224948.png" alt="Guido Huisman" class="mb-4" />
     <p>Contact Information: [Your contact information]</p>
-    <a href="Resume%20-%20Guido%20Huisman%20(1).pdf" target="_blank">Download My Resume</a>
+    <a href="Resume%20-%20Guido%20Huisman%20(1).pdf" target="_blank" class="btn btn-primary mt-3">Download My Resume</a>
+</div>
+
+<!-- Optional: Bootstrap JS (if you want to use any of Bootstrap's JS components in the future) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
